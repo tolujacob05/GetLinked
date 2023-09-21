@@ -1,0 +1,52 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 369px;
+  margin-top: 67px;
+  margin-bottom: 30px;
+}
+
+.logo > h2 {
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo > h2 > span {
+  color: #d434fe;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 121px;
+}
+
+.nav-items > ul {
+  list-style: none;
+  display: flex;
+  gap: 56px;
+}
+
+.nav-items > ul > li {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    gap: 100px;
+  }
+
+  .nav-items {
+    gap: 50px;
+  }
+}
