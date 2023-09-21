@@ -1,0 +1,136 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  /* padding: 40px; */
+}
+
+.main-1 {
+  position: relative;
+  left: 128px;
+}
+
+.flare-1 {
+  position: absolute;
+}
+
+.star-1 {
+  margin-top: 68px;
+  margin-bottom: 99px;
+  transform: translateX(100px);
+}
+
+.heading p {
+  position: relative;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+}
+
+.heading p > span > img {
+  position: absolute;
+  bottom: 75px;
+  right: 160px;
+}
+
+.heading-2 > p:nth-of-type(1) {
+  display: flex;
+  gap: 10px;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+}
+
+.heading-2 > p:nth-of-type(1) > span:nth-of-type(1) {
+  color: #d434fe;
+}
+
+.heading-2 > p:nth-of-type(2) {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%; /* 33.2px */
+  width: 522px;
+  height: 66px;
+  margin-bottom: 41px;
+}
+
+.time {
+  display: flex;
+  gap: 20px;
+  color: #fff;
+  font-family: Unica One;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+  margin-top: 77px;
+}
+
+.time > h2 > span {
+  font-size: 15px;
+}
+
+.star-2 {
+  position: absolute;
+  left: 551px;
+  top: 586px;
+}
+
+.main-2 {
+  position: relative;
+}
+
+.rev {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  width: 742px;
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: 32px;
+}
+
+.rev > img {
+  position: absolute;
+  left: 60%;
+}
+
+.star-3 {
+  position: absolute;
+  left: 106px;
+  margin-top: 70px;
+}
+
+.img-sec {
+  position: relative;
+  /* right: 10%; */
+  margin-top: 40px;
+}
+
+.img1 {
+  position: absolute;
+  left: 8%;
+}
+/* 
+.img2 {
+  position: relative;
+  z-index: 1;
+} */
+
+.flare-2 {
+  position: absolute;
+  bottom: 30px;
+}
