@@ -1,0 +1,150 @@
+.section-3-cont {
+  position: relative;
+  top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 150px;
+  position: inherit;
+}
+
+.sect-3-img {
+  position: absolute;
+  top: -15%;
+  left: -5%;
+}
+
+.section-3-text-1 > p:nth-of-type(1) {
+  display: grid;
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%; /* 0px */
+  width: 253px;
+  height: 82px;
+}
+
+.section-3-text-1 > p:nth-of-type(1) > span {
+  color: #d434fe;
+  font-family: "Clash Display", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%;
+}
+
+.section-3-text-1 > p:nth-of-type(2) {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+  width: 342px;
+  height: 55px;
+}
+
+.section-3-text-1 > p:nth-of-type(2) > span {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27.5px;
+  margin-left: 0.3rem;
+}
+
+.sect-3-text-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.sub-text {
+  display: flex;
+}
+
+.sub-text > p {
+  display: grid;
+  gap: 13px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+}
+
+.sub-text > p > span {
+  width: 427px;
+  height: 1px;
+  background: #d434fe;
+}
+
+.img-section {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.q-marks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  position: inherit;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.q-marks > img:nth-of-type(1) {
+  position: absolute;
+  left: 15%;
+  top: 50px;
+}
+
+.q-marks > img:nth-of-type(2) {
+  position: absolute;
+  left: 33%;
+  /* top: 50px; */
+}
+
+.q-marks > img:nth-of-type(3) {
+  position: absolute;
+  top: 5px;
+}
+
+.q-marks > img:nth-of-type(4) {
+  position: absolute;
+  right: 35%;
+  top: 10px;
+}
+
+.img-section > img:nth-of-type(1) {
+  position: absolute;
+  top: 25%;
+  left: 160px;
+}
+.img-section > img:nth-of-type(2) {
+  position: absolute;
+  bottom: 40%;
+  left: 30px;
+}
+.img-section > img:nth-of-type(4) {
+  position: absolute;
+  bottom: 0%;
+  right: 20%;
+}
+
+.L {
+  transform: translateY(270px);
+}
