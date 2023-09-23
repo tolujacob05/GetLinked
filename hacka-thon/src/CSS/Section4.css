@@ -218,3 +218,248 @@
   height: 86px;
   background: #d434fe;
 }
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    display: grid;
+    grid-template-columns: 250px 200px 250px;
+  }
+
+  .announcement > p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .announcement > p > span {
+    font-size: 12px;
+    width: 269px;
+    text-align: right;
+  }
+
+  .announcement-2 > p {
+    font-size: 12px;
+    text-align: left;
+    width: 269px;
+  }
+
+  .announcement-2 > p > span {
+    font-size: 12px;
+    width: 269px;
+    text-align: left;
+  }
+
+  .sec-line1 {
+    width: 2px;
+    height: 107px;
+  }
+
+  .sec-line2 {
+    width: 2px;
+    height: 77px;
+  }
+
+  .sec-line-text {
+    width: 19.32px;
+    height: 19.32px;
+    flex-shrink: 0;
+  }
+
+  .sec-line-text > span {
+    font-size: 12px;
+  }
+
+  .sub-sec > p {
+    font-size: 12px;
+    width: 269px;
+    text-align: right;
+  }
+
+  .sub-sec-2 > p {
+    font-size: 12px;
+    width: 269px;
+    text-align: left;
+  }
+
+  .sub-sec {
+    display: grid;
+    gap: 98px;
+  }
+
+  .sub-sec-2 {
+    display: grid;
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main-section {
+    display: grid;
+    grid-template-columns: 30px 10px 550px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-sec {
+    display: grid;
+    gap: 110px;
+  }
+
+  .sec-line {
+    gap: 20px;
+  }
+
+  .sec-line1 {
+    width: 2px;
+    height: 77px;
+  }
+
+  .sec-line2 {
+    width: 2px;
+    height: 77px;
+  }
+
+  .sec-line-text {
+    width: 19.32px;
+    height: 19.32px;
+    flex-shrink: 0;
+  }
+
+  .sec-line-text > span {
+    font-size: 12px;
+  }
+
+  .announcement > p {
+    font-size: 12px;
+    text-align: left;
+    /* width: 269px; */
+  }
+
+  .announcement > p > span {
+    font-size: 12px;
+    width: 269px;
+    text-align: left;
+  }
+
+  .announcement-2 > p {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .announcement-2 > p > span {
+    font-size: 12px;
+    width: 269px;
+    text-align: left;
+  }
+
+  .sub-sec > p {
+    font-size: 12px;
+    width: 269px;
+    text-align: center;
+  }
+
+  .sub-sec-2 > p {
+    font-size: 12px;
+    width: 269px;
+    text-align: center;
+  }
+
+  .sub-sec {
+    position: relative;
+  }
+
+  .sub-sec > .announcement:nth-of-type(1) > p {
+    transform: translateX(60px);
+    position: absolute;
+    top: -100px;
+  }
+
+  .sub-sec > .announcement:nth-of-type(1) > p > span {
+    transform: translateY(0px);
+  }
+
+  .sub-sec > p:nth-of-type(1) {
+    transform: translateY(50px);
+    position: relative;
+    left: -20px;
+  }
+
+  .sub-sec > p:nth-of-type(2) {
+    transform: translateY(15px);
+    position: relative;
+    left: -15px;
+  }
+
+  .sub-sec > p:nth-of-type(3) {
+    transform: translateY(-15px);
+    position: relative;
+    left: -3.5%;
+  }
+
+  /* .sub-sec > p {
+    transform: translateX(-20px);
+  } */
+
+  .sub-sec > .announcement:nth-of-type(2) > p {
+    transform: translateX(60px);
+    position: relative;
+    top: -60px;
+  }
+
+  .sub-sec > .announcement:nth-of-type(2) > p > span {
+    transform: translateY(-5px);
+  }
+
+  .sub-sec > .announcement:nth-of-type(3) > p {
+    transform: translateX(60px);
+    position: relative;
+    top: -100%;
+  }
+
+  .sub-sec > .announcement:nth-of-type(3) > p > span {
+    transform: translateY(0px);
+  }
+
+  .sub-sec-2 {
+    position: relative;
+  }
+
+  .sub-sec-2 > .announcement-2:nth-of-type(1) > p {
+    transform: translateX(-120px);
+    position: absolute;
+    top: -100px;
+  }
+
+  .sub-sec-2 > .announcement-2:nth-of-type(2) > p {
+    transform: translateX(-120px);
+    position: relative;
+    top: 10px;
+  }
+
+  .sub-sec-2 > .announcement-2:nth-of-type(1) > p > span {
+    transform: translateY(0px);
+  }
+
+  .sub-sec-2 > p:nth-of-type(1) {
+    position: absolute;
+    top: -145px;
+    left: -58px;
+  }
+
+  .sub-sec-2 > p:nth-of-type(2) {
+    position: relative;
+    top: 70px;
+    left: -198px;
+  }
+
+  .sub-sec-2 > p:nth-of-type(3) {
+    position: relative;
+    top: 110px;
+    left: -198px;
+  }
+
+  .sub-sec-2 > .announcement-2:nth-of-type(3) > p {
+    transform: translateX(-120px);
+    position: relative;
+    top: 50px;
+  }
+}

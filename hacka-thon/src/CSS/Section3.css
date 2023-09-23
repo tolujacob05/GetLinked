@@ -134,11 +134,13 @@
   top: 25%;
   left: 160px;
 }
+
 .img-section > img:nth-of-type(2) {
   position: absolute;
   bottom: 40%;
   left: 30px;
 }
+
 .img-section > img:nth-of-type(4) {
   position: absolute;
   bottom: 0%;
@@ -147,4 +149,118 @@
 
 .L {
   transform: translateY(270px);
+}
+
+@media screen and (max-width: 768px) {
+  .section-3-cont {
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .img-section {
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+
+  .sect-3-img > img {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-3-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sub-text > p {
+    font-size: 12px;
+    line-height: 18px; /* 150% */
+    width: 290.489px;
+    height: 39.42px;
+    flex-shrink: 0;
+  }
+
+  .sub-text > p > span {
+    width: 296.151px;
+    height: 1px;
+  }
+
+  .section-3-text-1 > p:nth-of-type(1) {
+    font-size: 20px;
+    line-height: 133%; /* 26.6px */
+    text-align: center;
+  }
+
+  .section-3-text-1 > p:nth-of-type(1) > span {
+    font-size: 20px;
+    line-height: 133%; /* 26.6px */
+    text-align: center;
+  }
+
+  .section-3-text-1 > p:nth-of-type(2) {
+    font-size: 12px;
+    line-height: 27.5px; /* 229.167% */
+    text-align: center;
+  }
+
+  .section-3-text-1 > p:nth-of-type(2) > span {
+    font-size: 12px;
+    line-height: 27.5px; /* 229.167% */
+  }
+
+  .img-section > img:nth-of-type(3) {
+    width: 327px;
+    height: 327px;
+    flex-shrink: 0;
+  }
+
+  .img-section {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+
+  .q-marks > img:nth-of-type(1) {
+    width: 50px;
+    height: 52px;
+    flex-shrink: 0;
+  }
+
+  .q-marks > img:nth-of-type(2) {
+    width: 50px;
+    height: 51px;
+    flex-shrink: 0;
+  }
+
+  .q-marks > img:nth-of-type(3) {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+  }
+
+  .q-marks > img:nth-of-type(4) {
+    width: 50px;
+    height: 51px;
+    flex-shrink: 0;
+  }
+
+  .img-section > img:nth-of-type(1),
+  img:nth-of-type(2),
+  img:nth-of-type(4) {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+  }
+
+  .L {
+    transform: translateY(170px);
+  }
 }

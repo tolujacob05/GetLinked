@@ -1,28 +1,21 @@
-import Footer from "./componenets/Footer";
-import Main from "./componenets/Main";
+import { Routes, Route } from "react-router-dom";
+
+import Register from "./componenets/Register";
+import Contact from "./componenets/Contact";
+import Home from "./componenets/Home";
 import Navbar from "./componenets/Navbar";
-import Section1 from "./componenets/Section1";
-import Section2 from "./componenets/Section2";
-import Section3 from "./componenets/Section3";
-import Section4 from "./componenets/Section4";
-import Section5 from "./componenets/Section5";
-import Section6 from "./componenets/Section6";
-import Section7 from "./componenets/Section7";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Main />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Footer />
-    </div>
+      {/* <Home /> */}
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 

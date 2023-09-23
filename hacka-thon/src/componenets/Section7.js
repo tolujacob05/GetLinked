@@ -81,7 +81,9 @@ function Section7() {
               </p>
             </div>
 
-            <Button>Read More</Button>
+            <div className="q">
+              <Button>Read More</Button>
+            </div>
           </div>
 
           <img src={flare} alt="" />

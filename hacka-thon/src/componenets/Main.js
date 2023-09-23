@@ -63,7 +63,9 @@ function Main() {
             </p>
           </div>
 
-          <Button>Register</Button>
+          <div className="reg">
+            <Button>Register</Button>
+          </div>
 
           <div className="time">
             <h2>
@@ -110,7 +112,10 @@ function Main() {
           </div>
         </main>
       </div>
-      <Line />
+
+      <div className="main-line">
+        <Line />
+      </div>
     </>
   );
 }
