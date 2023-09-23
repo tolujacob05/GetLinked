@@ -1,15 +1,18 @@
 import "../CSS/Navbar.css";
 import Button from "./Button";
 import Line from "./Line";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
       <nav className="navbar">
         <div className="logo">
-          <h2>
-            get<span>linked</span>
-          </h2>
+          <Link to={"/"} className="link">
+            <h2>
+              get<span>linked</span>
+            </h2>
+          </Link>
         </div>
 
         <div className="nav-items">
@@ -17,9 +20,13 @@ function Navbar() {
             <li>timeline</li>
             <li>overview</li>
             <li>FAQS</li>
-            <li>contact</li>
+            <Link to={"/contact"} className="link">
+              <li>Contact</li>
+            </Link>
           </ul>
-          <Button>Register</Button>
+          <Link to={"/register"}>
+            <Button>Register</Button>
+          </Link>
         </div>
       </nav>
       <Line />

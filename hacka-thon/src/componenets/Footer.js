@@ -1,6 +1,5 @@
 import "../CSS/Footer.css";
 import star1 from "../img/star1.png";
-import star2 from "../img/star2.png";
 import star4 from "../img/star4.png";
 
 function Footer() {
