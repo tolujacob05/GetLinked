@@ -7,8 +7,13 @@ nav {
   margin-bottom: 30px;
 }
 
+/* .logo {
+  position: absolute;
+} */
+
 .logo > .link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .logo > .link > h2 {
@@ -23,33 +28,35 @@ nav {
   color: #d434fe;
 }
 
-.nav-items {
+/* .nav-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 121px;
-}
+} */
 
-.nav-items > ul {
+nav ul {
   list-style: none;
   display: flex;
   gap: 56px;
 }
 
-.nav-items > ul > li {
+.nav-list > ul > li {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
   text-transform: capitalize;
+  transform: translateY(15px);
 }
 
-.nav-items > ul > .link {
+.nav-list > ul > .link {
   text-decoration: none;
+  transform: translateY(15px);
 }
 
-.nav-items > ul > .link > li {
+.nav-list > ul > .link > li {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -58,12 +65,70 @@ nav {
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 1024px) {
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
   nav {
-    gap: 100px;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
   }
 
-  .nav-items {
-    gap: 50px;
+  .logo > .link > h2 {
+    font-size: 26px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 26px;
+  }
+
+  /* .nav-list > ul > .z {
+    width: 10px;
+    border: 2px solid #d434fe;
+  } */
+}
+
+@media screen and (max-width: 480px) {
+  .lists {
+    display: none;
+  }
+
+  .lists-mobile {
+    display: grid;
+    gap: 20px;
+    border: 1px solid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lists-mobile > ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    left: 0;
+    top: 7px;
+  }
+
+  .lists-mobile > ul > li {
+    color: #fff;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 1;
+    height: 0px;
+  }
+
+  .mobile-menu-icon svg {
+    font-size: 100px;
   }
 }

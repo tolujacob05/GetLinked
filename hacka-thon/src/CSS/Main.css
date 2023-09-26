@@ -158,6 +158,12 @@
     flex-shrink: 0;
   }
 
+  .star-2 {
+    position: absolute;
+    left: 351px;
+    top: 586px;
+  }
+
   .flare-1 {
     position: absolute;
     right: 65px;
@@ -300,6 +306,17 @@
     flex-shrink: 0;
   }
 
+  .star-2 {
+    position: absolute;
+    left: 261px;
+    top: 256px;
+  }
+
+  .star-2 > img {
+    width: 11px;
+    height: 13px;
+  }
+
   .heading p {
     position: relative;
     font-size: 32px;
@@ -316,7 +333,7 @@
   .rev {
     width: 324px;
     font-size: 16px;
-    transform: translateX(50px);
+    transform: translateX(30px);
   }
 
   .rev > img {

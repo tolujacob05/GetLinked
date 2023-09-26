@@ -114,6 +114,7 @@
   line-height: 173.5%;
   width: 533px;
   height: 75px;
+  position: relative;
 }
 
 .b {
@@ -204,6 +205,12 @@
     line-height: 173.5%; /* 22.555px */
   }
 
+  .text-cont > p > span {
+    text-align: center;
+    font-size: 13px;
+    line-height: 173.5%; /* 22.555px */
+  }
+
   .b {
     margin-top: 30px;
     display: flex;
@@ -230,6 +237,12 @@
 
   .sect-line {
     transform: translateY(0px);
+  }
+
+  .text-cont > img {
+    position: absolute;
+    left: 40px;
+    top: 300px;
   }
 }
 
@@ -266,5 +279,30 @@
     position: absolute;
     top: 310%;
     left: 100%;
+  }
+
+  .text-cont > p {
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 173.5%; /* 22.555px */
+    width: 291px;
+    height: 105px;
+  }
+
+  .text-cont > p > span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .heading > h2 {
+    margin-top: 75px;
+  }
+
+  .text-cont > img {
+    position: absolute;
+    left: -270px;
+    top: 300px;
   }
 }

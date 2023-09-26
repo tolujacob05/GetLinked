@@ -69,7 +69,7 @@ function Register() {
 
             <label>
               Group
-              <select>
+              <select className="select">
                 <option className="option">Select</option>
               </select>
             </label>

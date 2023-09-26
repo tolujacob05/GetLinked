@@ -168,6 +168,11 @@
     flex-shrink: 0;
     text-align: center;
   }
+
+  .prize-section > img {
+    left: -195px;
+    top: 70%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -176,6 +181,20 @@
     flex-direction: column;
     grid-gap: 80px;
     margin-top: 183px;
+  }
+
+  .award > img:nth-of-type(1) {
+    display: none;
+  }
+
+  .award > img:nth-of-type(2) {
+    position: absolute;
+    left: 150px;
+    top: 530px;
+  }
+
+  .award-section {
+    margin-bottom: 0px;
   }
 
   .prize-section {
@@ -192,9 +211,17 @@
     top: 200px;
   }
 
-  .prizes > img:nth-of-type(2) {
+  .award-2 > img:nth-of-type(2) {
+    position: absolute;
     width: 400px;
-    height: 300px;
+    height: 400px;
+    left: -290px;
+    top: -10px;
+  }
+
+  .prizes > img:nth-of-type(2) {
+    width: 300px;
+    height: 250px;
   }
 
   .prize-text > p:nth-of-type(1) {
@@ -231,11 +258,13 @@
     width: 10px;
     height: 12px;
     flex-shrink: 0;
+    /* transform: translateX(-px); */
   }
 
-  .prize-text > img:nth-of-type(2) {
-    width: 10px;
-    height: 12px;
-    flex-shrink: 0;
+  .prize-section > img {
+    position: absolute;
+    left: -265px;
+    top: 70%;
+    height: 390px;
   }
 }
