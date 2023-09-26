@@ -194,6 +194,11 @@
     height: 1px;
   }
 
+  .section-3 {
+    margin-top: 50px;
+    transform: translateX(10px);
+  }
+
   .section-3-text-1 > p:nth-of-type(1) {
     font-size: 20px;
     line-height: 133%; /* 26.6px */

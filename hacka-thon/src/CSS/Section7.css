@@ -249,15 +249,21 @@
     right: -110px;
     z-index: 1;
   }
+
+  .policy > img:nth-of-type(4) {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    bottom: -25%;
+    right: 20px;
+  }
 }
+
 @media screen and (max-width: 480px) {
   .terms {
     width: 295px;
     height: 635px;
     flex-shrink: 0;
-    /* display: grid;
-    align-items: center;
-    justify-content: center; */
     transform: translateX(10px);
   }
 
@@ -276,6 +282,15 @@
     width: 17px;
     height: 20px;
     flex-shrink: 0;
+    left: 300px;
+  }
+
+  .policy > img:nth-of-type(2) {
+    position: absolute;
+    left: 300px;
+    top: 12%;
+    width: 17px;
+    height: 20px;
   }
 
   .policy > p:nth-of-type(2) {

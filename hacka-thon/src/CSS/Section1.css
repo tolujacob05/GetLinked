@@ -263,7 +263,7 @@
   .sect-2-img > img:nth-of-type(2) {
     position: absolute;
     top: 180px;
-    left: 15%;
+    left: -28%;
   }
 
   .star-6 {
@@ -283,10 +283,15 @@
     transform: translateX(70px);
   }
 
+  .word > p:nth-of-type(2) {
+    position: relative;
+    z-index: 1;
+  }
+
   .sect-2-img > img:nth-of-type(2) {
     position: absolute;
     top: 20px;
-    left: -30%;
+    left: -65%;
   }
 
   .star-6 {
@@ -311,5 +316,12 @@
     width: 12px;
     height: 14px;
     flex-shrink: 0;
+  }
+
+  .intro > p:nth-of-type(2) {
+    font-size: 12px;
+    line-height: 27.5px; /* 211.538% */
+    width: 388px;
+    text-align: center;
   }
 }
